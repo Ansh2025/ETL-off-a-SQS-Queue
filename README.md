@@ -3,6 +3,8 @@
 In order to run this project, please run the following commands in the following order below:
 (Assuming these commands are running in Windows)
 
+User have the ability to change the configuration of the ETL processes, by adding their own values to the parameters in the config file
+
 Step 1: Clone the repository into a local folder in your system using the following command:
 
 ```
