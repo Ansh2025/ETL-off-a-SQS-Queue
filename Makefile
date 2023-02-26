@@ -1,4 +1,4 @@
-pip-install:
+install:
 	pip install -r requirements.txt
 create:
 	set PGPASSWORD=postgres
