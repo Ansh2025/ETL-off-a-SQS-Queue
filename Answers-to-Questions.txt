@@ -1,5 +1,16 @@
 Q1) How would you deploy this application in production?
-A1) First I would set up a production environment in virtual machine, cloud instance, or Kubernetes cluster to deploy these ETL processes and Postgres database. Then, I would use the configured Docker Compose file or a container orchestration tool like Kubernetes to deploy your ETL processes and Postgres database into production. After that with the help of firewalls, VPNs, or SSL/TLS I would focus on configuring network security to prevent unauthorized access. In the end I will make sure that the ETL processes are running smoothly by monitoring and logging.
+A1) First, I would set up a production environment in a virtual machine, cloud instance, or Kubernetes cluster to deploy these ETL processes and the Postgres database. Then, I would use the configured Docker Compose file or a container orchestration tool like Kubernetes to deploy your ETL processes and Postgres database into production. After that, with the help of firewalls, VPNs, or SSL/TLS, I would focus on configuring network security to prevent unauthorized access. Ultimately, I will ensure the ETL processes are running smoothly by monitoring and logging.
 
 Q2) What other components would you want to add to make this production ready?
-A2) Adding automated testing components like pytest and unittest can help catch bugs early, and also this will help us to find the exact pain point in the ETL process. Also, I would add CI/CD pipeline tools like GitLab, Jenkins to automate the process of devloping, interating and deploying
+A2) Adding automated testing components like pytest and unittest can help catch bugs early and help us find the exact pain point in the ETL process. Also, I would add CI/CD pipeline tools like GitLab and Jenkins to automate the process of developing, iterating, and deploying
+
+Q3) How can this application scale with a growing dataset?
+A3) I could use the help of the frameworks like Apache Hadoop or Apache Spark to process vast amounts of data in parallel using clusters of machines. Also, cloud services like AWS can help to scale up the ETL processes. Also, with the growing dataset, we could leverage NoSQL databases like MongoDB and Cassandra to store and process this dataset.
+
+Q4) How can PII be recovered later on?
+A4) I have provided a python script called "decode.py" and instructions in the ReadMe file to use this script to recover the PII. Basically, I am decoding the encrypted text in the script so that the concerned authorities can look at the actual data.
+
+Q5) What are the assumptions you made?
+A5) Some of the assumptions that I have made in this project are listed below:
+a) I am assuming that the user is using a Windows Operating System
+b) I have deliberately changed the datatype of the column named "app_version" to varchar(32) instead of integer. 
