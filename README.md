@@ -32,7 +32,8 @@ Step 5: Run the python ETL application for reading the data from an AWS SQS Queu
 make run
 ```
 
-Once you are done with these steps, you should be able to run the following command in a separate terminal to check the added records:
+Once you are done with these steps, you should be able to run the following command in a separate terminal to check the added records.
+Password for postgres is **postgres**
 ```
 psql -d postgres -U postgres -p 5432 -h localhost -W
 elect * from user_logins;
