@@ -5,7 +5,7 @@ In order to run this project, please run the following commands:
 Step 1: Clone the repository to your system using the following command:
 
 ```
-git clone 
+git clone https://github.com/Ansh2025/ETL-off-a-SQS-Queue.git
 ```
 
 Step 2: Install all requirements for this project.
