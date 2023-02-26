@@ -1,0 +1,7 @@
+awscli-local==0.20
+botocore==1.27.59
+jsonschema==3.2.0
+localstack-client==1.39
+psycopg2==2.9.5
+python-dateutil==2.8.2
+urllib3==1.26.13
