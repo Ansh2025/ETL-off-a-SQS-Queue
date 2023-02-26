@@ -35,7 +35,7 @@ make run
 Once you are done with these steps, you should be able to run the following command in a separate terminal to check the added records:
 ```
 psql -d postgres -U postgres -p 5432 -h localhost -W
-postgres=# select * from user_logins;
+elect * from user_logins;
 ```
 
 In case you want to get the encrypted string back, please run the following command:
