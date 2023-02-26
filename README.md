@@ -1,6 +1,7 @@
 # ETL-off-a-SQS-Queue
 
-In order to run this project, please run the following commands:
+In order to run this project, please run the following commands in the following order below:
+(Assuming these commands are running in Windows)
 
 Step 1: Clone the repository into a local folder in your system using the following command:
 
@@ -16,7 +17,7 @@ make install
 ```
 
 Step 3: Create a table in postgres
-Run the following command:
+Run the following command and the password is **postgres**:
 ```
 make create
 ```
