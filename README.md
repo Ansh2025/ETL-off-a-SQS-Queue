@@ -38,6 +38,7 @@ Password for postgres is **postgres**
 ```
 psql -d postgres -U postgres -p 5432 -h localhost -W
 ```
+```
 select * from user_logins;
 ```
 
