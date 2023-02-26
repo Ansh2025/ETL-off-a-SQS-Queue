@@ -39,3 +39,9 @@ psql -d postgres -U postgres -p 5432 -h localhost -W
 postgres=# select * from user_logins;
 ```
 
+In case you want to get the encrypted string back, please run the following command:
+```
+python decode.py -e "<YOUR ENCRYPTED STRING>"
+```
+
+
